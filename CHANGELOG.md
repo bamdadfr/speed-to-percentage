@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/bamdadsabbagh/speed-to-percentage/compare/v1.0.0...v1.0.1) (2021-03-25)
+
+
+### Bug Fixes
+
+* **npm:** dummy version bump [force-release] ([2947b69](https://github.com/bamdadsabbagh/speed-to-percentage/commit/2947b69da9e14d10126cca5c64d9ff1580e9b3df))
+
 # 1.0.0 (2021-03-25)
 
 
