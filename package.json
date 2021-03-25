@@ -1,0 +1,40 @@
+{
+    "name": "speed-to-percentage",
+    "version": "1.0.0",
+    "description": "calculate percentage from playback speed",
+    "keywords": [
+        "audio",
+        "pitch",
+        "speed",
+        "percentage"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/bamdadsabbagh/speed-to-percentage.git"
+    },
+    "license": "MIT",
+    "author": {
+        "name": "Bamdad Sabbagh",
+        "email": "hello@bamdadsabbagh.com",
+        "url": "https://bamdadsabbagh.com"
+    },
+    "type": "module",
+    "main": "src/index.js",
+    "module": "src/index.js",
+    "files": [
+        "src"
+    ],
+    "scripts": {
+        "test": "jest && codecov",
+        "package:sort": "npx sort-package-json"
+    },
+    "devDependencies": {
+        "@bamdadsabbagh/eslint-config": "^1.9.1",
+        "codecov": "^3.8.1",
+        "jest": "^26.6.3"
+    },
+    "jest": {
+        "coverageDirectory": "./coverage/",
+        "collectCoverage": true
+    }
+}
