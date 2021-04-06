@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/bamdadsabbagh/speed-to-percentage/compare/v1.0.1...v1.0.2) (2021-04-06)
+
+
+### Bug Fixes
+
+* **jsdoc:** added `function` and `description` tags ([3bec411](https://github.com/bamdadsabbagh/speed-to-percentage/commit/3bec411c05a7e23ba61a9efff9b529297a29c8a6))
+
 ## [1.0.1](https://github.com/bamdadsabbagh/speed-to-percentage/compare/v1.0.0...v1.0.1) (2021-03-25)
 
 
