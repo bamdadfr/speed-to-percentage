@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/bamdadsabbagh/speed-to-percentage/compare/v1.0.2...v1.1.0) (2021-04-27)
+
+
+### Features
+
+* **app:** bye bye CommonJS, exporting as ES module ([ff5bfff](https://github.com/bamdadsabbagh/speed-to-percentage/commit/ff5bfff36cefd0cf7f72373e120e9a53e9e88565))
+
 ## [1.0.2](https://github.com/bamdadsabbagh/speed-to-percentage/compare/v1.0.1...v1.0.2) (2021-04-06)
 
 
