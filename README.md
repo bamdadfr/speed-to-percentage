@@ -43,20 +43,10 @@ yarn add speed-to-percentage
 1. `speed` number
 2. `digits` number, optional, between `0` and `20`
 
-## examples
-
-### as `default` export
+## example
 
 ```javascript
 import speedToPercentage from 'speed-to-percentage'
 
 const semitones = speedToPercentage(0.5) // returns "-50"
-```
-
-### as `named` export
-
-```javascript
-import {speedToPercentage} from 'speed-to-percentage'
-
-const semitones = speedToPercentage(1.5, 3) // returns "50.000"
 ```
