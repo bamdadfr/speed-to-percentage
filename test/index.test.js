@@ -1,4 +1,4 @@
-const speedToPercentage = require ('../src/index')
+import speedToPercentage from '../src'
 
 describe ('testing parameters', () => {
 
