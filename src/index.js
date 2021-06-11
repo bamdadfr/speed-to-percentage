@@ -2,11 +2,11 @@
  * @function
  * @name speedToPercentage
  * @description calculate percentage from playback speed, normal playback speed is 1
- * @param {number} speed - playback speed
- * @param {number} digits - number of digits to appear after the decimal point
+ * @param {Number} speed - playback speed
+ * @param {Number} [digits=0] - number of digits to appear after the decimal point
  *      value between 0 and 20
  *      truncated
- * @return {string} percentage
+ * @return {String} percentage
  */
 export default function speedToPercentage (speed, digits = 0) {
 
