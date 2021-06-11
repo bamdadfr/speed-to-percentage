@@ -1,3 +1,11 @@
+## [1.1.2](https://github.com/bamdadsabbagh/speed-to-percentage/compare/v1.1.1...v1.1.2) (2021-06-11)
+
+
+### Bug Fixes
+
+* **deps:** updated to latest ([593874f](https://github.com/bamdadsabbagh/speed-to-percentage/commit/593874fda7ebac1fb988f55c0212409067f61f93))
+* **doc:** better jsdoc ([c727bc5](https://github.com/bamdadsabbagh/speed-to-percentage/commit/c727bc50e24ea77038608d86d589cffe16aec8a6))
+
 ## [1.1.1](https://github.com/bamdadsabbagh/speed-to-percentage/compare/v1.1.0...v1.1.1) (2021-04-27)
 
 

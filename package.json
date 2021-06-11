@@ -1,6 +1,6 @@
 {
     "name": "speed-to-percentage",
-    "version": "1.1.1",
+    "version": "1.1.2",
     "description": "calculate percentage from playback speed",
     "keywords": [
         "audio",
