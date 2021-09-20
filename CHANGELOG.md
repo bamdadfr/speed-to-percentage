@@ -1,3 +1,15 @@
+# [1.2.0](https://github.com/bamdadsabbagh/speed-to-percentage/compare/v1.1.3...v1.2.0) (2021-09-20)
+
+
+### Bug Fixes
+
+* **release:** update ci workflows ([b542914](https://github.com/bamdadsabbagh/speed-to-percentage/commit/b542914a55f28d0ef9dc6342550fe84735ab665c))
+
+
+### Features
+
+* update deps to latest ([f3ae891](https://github.com/bamdadsabbagh/speed-to-percentage/commit/f3ae8910b839225621f15c1c0c44d55e784fa15a))
+
 ## [1.1.3](https://github.com/bamdadsabbagh/speed-to-percentage/compare/v1.1.2...v1.1.3) (2021-07-12)
 
 
