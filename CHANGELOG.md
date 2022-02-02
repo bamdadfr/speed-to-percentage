@@ -1,3 +1,10 @@
+## [1.2.1](https://github.com/bamdadsabbagh/speed-to-percentage/compare/v1.2.0...v1.2.1) (2022-02-02)
+
+
+### Performance Improvements
+
+* Add typescript definitions + Apply last eslint rules + Improve JSDoc + Replace coverage provider ([206c1b2](https://github.com/bamdadsabbagh/speed-to-percentage/commit/206c1b25d166123cfadef8327d75a2ac9f5dfc12))
+
 # [1.2.0](https://github.com/bamdadsabbagh/speed-to-percentage/compare/v1.1.3...v1.2.0) (2021-09-20)
 
 
