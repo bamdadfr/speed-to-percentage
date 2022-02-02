@@ -1,52 +1,24 @@
-# speed-to-percentage
+![release](https://img.shields.io/github/v/release/bamdadsabbagh/speed-to-percentage)
+![license](https://img.shields.io/github/license/bamdadsabbagh/speed-to-percentage)
+![maintainability](https://img.shields.io/codeclimate/maintainability/bamdadsabbagh/speed-to-percentage)
+![coverage](https://img.shields.io/codeclimate/coverage/bamdadsabbagh/speed-to-percentage)
+![snyk](https://img.shields.io/snyk/vulnerabilities/github/bamdadsabbagh/speed-to-percentage)
 
-> calculate percentage from audio speed
->
-> playback speed of 1 (default) will return percentage of 0% (pitch)
+Convert the audio playback speed to percentage.
 
-<p>
-    <a href="https://github.com/bamdadsabbagh/speed-to-percentage">
-        <img alt="github stars" src="https://img.shields.io/github/stars/bamdadsabbagh/speed-to-percentage">
-    </a>
-    <img alt="license" src="https://img.shields.io/github/license/bamdadsabbagh/speed-to-percentage">
-</p>
+Normal playback speed is 1, meaning the audio is played at the normal speed.
 
-<p>
-    <img alt="languages used" src="https://img.shields.io/github/languages/count/bamdadsabbagh/speed-to-percentage">
-    <img alt="language most used" src="https://img.shields.io/github/languages/top/bamdadsabbagh/speed-to-percentage">
-</p>
-
-<p>
-    <img alt="release version" src="https://img.shields.io/github/v/release/bamdadsabbagh/speed-to-percentage">
-    <img alt="code climate" src="https://api.codeclimate.com/v1/badges/d1c7faab9a4f50ad5b03/maintainability" />
-    <img alt="codecov" src="https://img.shields.io/codecov/c/github/bamdadsabbagh/speed-to-percentage">
-</p>
-
-<p>
-    <img alt="dependencies" src="https://img.shields.io/david/bamdadsabbagh/speed-to-percentage">
-    <img alt="dev dependencies" src="https://img.shields.io/david/dev/bamdadsabbagh/speed-to-percentage">
-    <img alt="snyk vulnerabilities" src="https://img.shields.io/snyk/vulnerabilities/github/bamdadsabbagh/speed-to-percentage">
-</p>
-
-## installation
+## 🚀 Use
 
 ```bash
-# npm
-npm install speed-to-percentage
-
-# yarn
 yarn add speed-to-percentage
 ```
 
-## parameters
-
-1. `speed` number
-2. `digits` number, optional, between `0` and `20`
-
-## example
+### ⚡ Example
 
 ```javascript
 import speedToPercentage from 'speed-to-percentage'
 
-const semitones = speedToPercentage(0.5) // returns "-50"
+const half = speedToPercentage(0.5) // returns the string -50
+const moreDigits = speedToPercentage(0.5, 2) // returns the string -50.00
 ```
