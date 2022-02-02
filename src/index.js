@@ -1,21 +1,27 @@
 /**
- * @function
- * @name speedToPercentage
- * @description calculate percentage from playback speed, normal playback speed is 1
- * @param {number} speed - playback speed
- * @param {number} [digits=0] - number of digits to appear after the decimal point
- *      value between 0 and 20
- *      truncated
- * @returns {string} percentage
+ * Convert the audio playback speed to percentage.
+ * Normal playback speed is 1, meaning the audio is played at the normal speed.
+ *
+ * @param {number} speed
+ *    The audio playback speed.
+ * @param {number} [digits=0]
+ *    The number of digits after the decimal point.
+ *    Number of digits can not be less than 0 nor greater than 20.
+ * @returns {string}
+ *    The percentage.
  */
-export default function speedToPercentage (speed, digits = 0) {
+export default function speedToPercentage(speed, digits = 0) {
+  if (typeof speed !== 'number') {
+    throw new TypeError('speed is not a number');
+  }
 
-    if (typeof speed !== 'number') throw new TypeError ('speed parameter should be a number')
+  if (typeof digits !== 'number') {
+    throw new TypeError('digits is not a number');
+  }
 
-    if (typeof digits !== 'number') throw new TypeError ('digits parameter should be a number')
+  if (digits < 0 || digits > 20) {
+    throw new TypeError('digits is out of range');
+  }
 
-    if (digits < 0 || digits > 20) throw new TypeError ('digits parameter should be between 0 and 20')
-
-    return (speed * 100 - 100).toFixed (digits)
-
+  return (speed * 100 - 100).toFixed(digits);
 }
